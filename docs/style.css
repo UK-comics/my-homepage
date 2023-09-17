@@ -1,4 +1,4 @@
-/* 共通のスタイル */
+/* スタイルの設定 */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -8,10 +8,13 @@ h1 {
     color: #333;
 }
 
-/* マンガビューワーのスタイル */
-#manga-container {
+#image-container {
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+img {
     max-width: 100%;
-    margin: 0 auto;
 }
 
 button {
@@ -24,4 +27,16 @@ button {
 
 button:hover {
     background-color: #0055CC;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
